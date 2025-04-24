@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Agentic RAG Team Application
+RAGs to Riches
 Conduct research on a specific topic, evaluate, critically appraise, and compile a final report.
 """
 
@@ -26,7 +26,7 @@ openai.api_key = api_key
 
 def main():
     """Main entry point for the application"""
-    parser = argparse.ArgumentParser(description="Agentic RAG Team Application")
+    parser = argparse.ArgumentParser(description="RAGs to Riches")
     parser.add_argument("-d", "--output-dir", dest="output_dir", default="output",
                         help="Directory to save output files (default: output)")
     parser.add_argument("-s", "--steps-dir", dest="steps_dir", default="steps_taken",

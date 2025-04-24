@@ -1,6 +1,6 @@
-# Usage Guide: Agentic RAG Research Team
+# Usage Guide: RAGs to Riches
 
-This guide provides detailed instructions for using the Agentic RAG Research Team tool to conduct comprehensive research on any topic.
+This guide provides detailed instructions for using the RAGs to Riches tool to conduct comprehensive research on any topic.
 
 ## Getting Started
 
@@ -28,7 +28,7 @@ This guide provides detailed instructions for using the Agentic RAG Research Tea
 The tool is designed to be simple to use. At its most basic, you can run:
 
 ```bash
-python research_agent_team.py "Your research topic"
+python main.py "Your research topic"
 ```
 
 Replace "Your research topic" with any subject you want to research. The more specific your topic, the more focused the research will be.
@@ -36,10 +36,10 @@ Replace "Your research topic" with any subject you want to research. The more sp
 ## Command-line Options
 
 ```
-usage: research_agent_team.py [-h] [-d OUTPUT_DIR] [-s STEPS_DIR] [-o OUTPUT_FILE]
+usage: main.py [-h] [-d OUTPUT_DIR] [-s STEPS_DIR] [-o OUTPUT_FILE]
                               [-v] [--clear-cache] topic [topic ...]
 
-Agentic RAG Team Application
+RAGs to Riches Application
 
 positional arguments:
   topic                 Topic to research
@@ -63,7 +63,7 @@ options:
 Specify a custom filename for the output report:
 
 ```bash
-python research_agent_team.py "Quantum computing applications" -o reports/quantum_computing.md
+python main.py "Quantum computing applications" -o reports/quantum_computing.md
 ```
 
 ### Verbose Output for Debugging
@@ -71,7 +71,7 @@ python research_agent_team.py "Quantum computing applications" -o reports/quantu
 When you want to see the full agent responses and detailed processing:
 
 ```bash
-python research_agent_team.py "Climate change mitigation strategies" -v
+python main.py "Climate change mitigation strategies" -v
 ```
 
 ### Managing the Cache
@@ -79,7 +79,7 @@ python research_agent_team.py "Climate change mitigation strategies" -v
 Clear the search cache before running a new research session:
 
 ```bash
-python research_agent_team.py "Renewable energy trends" --clear-cache
+python main.py "Renewable energy trends" --clear-cache
 ```
 
 The cache helps reduce token usage and speeds up repeated searches, but you may want to clear it when:

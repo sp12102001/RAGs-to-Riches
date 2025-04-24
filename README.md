@@ -1,4 +1,4 @@
-# Agentic RAG Research Team
+# RAGs to Riches
 
 A powerful research tool built with the OpenAI Agents SDK that leverages multiple search APIs to conduct comprehensive research, evaluation, critical appraisal, and report generation.
 
@@ -168,7 +168,7 @@ This application utilizes:
 ## Project Structure
 
 ```
-RAG/
+RAGs-to-Riches/
 ├── main.py                   # Main entry point
 ├── requirements.txt          # Dependencies
 ├── .env                      # Environment variables
@@ -198,8 +198,25 @@ RAG/
         └── runner.py         # Pipeline execution
 ```
 
-The modular organization provides several benefits:
-- Clear separation of concerns
-- Improved maintainability and extensibility
-- Easier testing and debugging
-- Better code reuse
+
+## Contact & Support
+
+For questions, bug reports, or feature requests:
+- Open an issue on GitHub
+- Contact me directly [@sp12102001](https://github.com/sp12102001)
+- Join our [Discord community](https://discord.gg/rags-to-riches)
+
+## Contributing
+
+Contributions are welcome! Please read our [contributing guidelines](CONTRIBUTING.md) before submitting pull requests.
+
+## Code Reuse & License
+
+This project is released under the MIT License. You are free to use, modify, and distribute this code, provided you:
+
+1. Include the original copyright notice
+2. Include the MIT license text
+3. State any significant changes made
+4. Do not use the author's name to endorse derivative works
+
+See the [LICENSE](LICENSE) file for the complete terms.

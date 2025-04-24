@@ -1,8 +1,8 @@
-# Research Agent Team: Technical Documentation
+# RAGs to Riches: Technical Documentation
 
 ## System Architecture
 
-The Research Agent Team is an LLM-powered research pipeline that combines multiple specialized agents to conduct comprehensive research on a given topic. The system architecture follows a sequential pipeline pattern where each agent performs a specific role in the research process.
+The RAGs to Riches system is an LLM-powered research pipeline that combines multiple specialized agents to conduct comprehensive research on a given topic. The system architecture follows a sequential pipeline pattern where each agent performs a specific role in the research process.
 
 ```
 ┌───────────────┐     ┌───────────────┐     ┌───────────────┐     ┌───────────────┐
@@ -29,22 +29,24 @@ The Research Agent Team is an LLM-powered research pipeline that combines multip
 
 ## Code Structure
 
-The application is organized as a single Python script with several logical sections:
+The application is organized in a modular structure:
 
 ```
-research_agent_team.py
-├── Imports and Environment Setup
-├── Agent Definitions
-│   ├── Research Agent
-│   ├── Evaluation Agent
-│   ├── Appraisal Agent
-│   └── Report Agent
-├── Tool Definitions
-│   └── Web Search
-├── Pipeline Execution
-│   └── run_pipeline()
-└── CLI Interface
-    └── main()
+RAGs-to-Riches/
+├── src/
+│   ├── agents/
+│   │   ├── research_agent.py
+│   │   ├── evaluation_agent.py
+│   │   ├── appraisal_agent.py
+│   │   └── report_agent.py
+│   ├── tools/
+│   │   └── web_search.py
+│   ├── pipeline/
+│   │   └── runner.py
+│   └── utils/
+│       ├── cache.py
+│       └── formatting.py
+└── main.py
 ```
 
 ## Agent Definitions
