@@ -1,0 +1,6 @@
+openai-agents>=0.0.12
+duckduckgo-search>=8.0.1
+python-dotenv>=1.1.0
+rich>=14.0.0
+requests>=2.32.0
+tqdm>=4.67.0
