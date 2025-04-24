@@ -83,7 +83,7 @@ This tool implements several strategies to minimize OpenAI API token usage:
    ```bash
    pip install -r requirements.txt
    ```
-4. Create a `.env` file with your OpenAI API key:
+4. Rename the env.example.txt file to `.env`, and add in your OpenAI API key:
    ```
    OPENAI_API_KEY=your_api_key_here
    OPENALEX_EMAIL=your_email@example.com  # Optional but recommended for OpenAlex
