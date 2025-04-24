@@ -66,10 +66,9 @@ Combined with OpenAlex and DuckDuckGo search, this creates a powerful research p
 This tool implements several strategies to minimize OpenAI API token usage:
 
 1. **Local caching**: Search results are cached to avoid redundant API calls
-2. **Optimized prompts**: All agent instructions are concise and focused
-3. **Strategic data passing**: Only relevant information is passed between agents
-4. **Efficient formatting**: Compact markdown structures reduce token overhead
-5. **Source limitation**: Searches are capped at 5 results by default to save tokens
+2. **Lean Agent-Agent Data Transfer**: instructions are concise and focused, and the system avoids passing variables into prompts where possible (modifable as needed)
+3. **Efficient formatting**: Compact markdown to reduce token overhead
+4. **Source limitation**: Searches capped at 5 results by default to save tokens, this can be modified as needed
 
 ## Installation
 
@@ -204,7 +203,6 @@ RAGs-to-Riches/
 For questions, bug reports, or feature requests:
 - Open an issue on GitHub
 - Contact me directly [@sp12102001](https://github.com/sp12102001)
-- Join our [Discord community](https://discord.gg/rags-to-riches)
 
 ## Contributing
 
